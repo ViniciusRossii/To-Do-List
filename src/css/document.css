@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('../Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Regular;
+    color: white;
+    user-select: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient( 94.3deg, rgba(26, 33, 64, 1) 10.9%, rgba(81, 84, 115, 1) 87.1%);
+    background-attachment: fixed;
+}

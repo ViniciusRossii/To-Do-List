@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+#content {
+    text-align: center;
+}
+
+#container {
+    display: inline-block;
+    border-radius: 20px;
+    width: 85%;
+    height: 500px;
+    border: 1px solid white;
+    background: none;
+    overflow-y:scroll;
+}
+
+ul {
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+ul li {
+    color: white;
+    list-style-type: none;
+    margin-top: 10px;
+    border: 1px solid white;
+    width: 500px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#button {
+    text-align: center;
+}
+
+#button span {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button span:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#button span:nth-child(1) {
+    background-image: url('../icons/add.png');
+}
+
+#button span:nth-child(2) {
+    background-image: url('../icons/edit.png');
+}
+
+#button span:nth-child(3) {
+    background-image: url('../icons/trash.png');
+}
+
+#button span:nth-child(4) {
+    background-image: url('../icons/cancel.png');
+}
