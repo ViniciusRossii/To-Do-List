@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media (max-width: 540px) {
+    ul li {
+        display: inline-block;
+        width: 270px;
+        word-wrap: break-word;
+        font-size: 20px;
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+
+@media (max-width: 414px) {
+    ul li {
+        width: 270px;
+    }
+}
+
+@media (max-width: 375px) {
+    ul li {
+        width: 200px;
+    }
+}
+
+@media (max-width: 280px) {
+    ul li {
+        width: 170px;
+    }
+}

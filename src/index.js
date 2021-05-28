@@ -108,6 +108,10 @@ del.addEventListener('click', () => { // Removendo Tarefa
 })
 
 deleteALl.addEventListener('click', () => {
+    if (ul.childElementCount == 0) {
+        alert("Sem tarefas adicionadas.")
+        return
+    }
     const areUSure = confirm("Deseja apagar todas as tarefas?")
     if (areUSure == false) {
         return
